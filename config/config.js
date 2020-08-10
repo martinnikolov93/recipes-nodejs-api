@@ -6,7 +6,11 @@ const config = {
         dbURL: `mongodb+srv://user:${process.env.DB_PASSWORD}@softuni-bhvuj.mongodb.net/recipes?retryWrites=true&w=majority`,
         authCookieName: 'auth-token'
     },
-    production: {}
+    production: {
+        port: process.env.PORT || 9999,
+        dbURL: `mongodb+srv://user:${process.env.DB_PASSWORD}@softuni-bhvuj.mongodb.net/recipes?retryWrites=true&w=majority`,
+        authCookieName: 'auth-token'
+    }
 };
 
 module.exports = config[env];
