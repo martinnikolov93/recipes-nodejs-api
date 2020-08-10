@@ -5,7 +5,8 @@
     "version": "1.0.0",
     "main": "pathToMain",
     "scripts": {
-        "start": "nodemon"
+        "start": "node index.js",
+        "dev": "nodemon"
     },
     "dependencies": {
         "@babel/core": "^7.10.4",
