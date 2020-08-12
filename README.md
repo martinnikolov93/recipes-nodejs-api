@@ -1,6 +1,6 @@
 ## About
 
-Recipes REST API. Provides data for users, recipes, categories and reviews.
+Recipes REST API. Provides json formatted data for users, recipes, categories and reviews.
 
 ## Libraries used to make this project
 
